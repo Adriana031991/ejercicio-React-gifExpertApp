@@ -3,7 +3,7 @@ import { AddCategory, GridShowGifs } from './components';
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['hola']) // siempre sera un arreglo
+    const [categories, setCategories] = useState([]) // siempre sera un arreglo
 
 
     const onAddCategory = (newCategory) => {
